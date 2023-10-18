@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700;800&family=Fira+Sans:wght@100&family=Poppins&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+nav {
+    background-color: black;
+    color: white;
+    height: 25px;
+    padding: 12px 3px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0 23px;
+    font-size: 27px;
+    font-weight: 800px;
+}
+
+nav ul li:hover {
+    height: 20px;
+    color: blue;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+table ,td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px 22px;
+}
+
+
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+
+}
+h1,h2,h3{
+    margin: 23px 0;
+
+}
+
+.btn{
+    padding: 8px 17px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    margin: 25px;
+    cursor: pointer;
+}
+.btnsm{
+    padding: 8px 17px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    /* margin: 25px; */
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+    position: relative;
+    height: 16px;
+    bottom: 9px;
+}
+#Copied{
+    display: none ;
+}
+
